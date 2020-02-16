@@ -3,17 +3,142 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hello Rigo with Vanilla.js</title>
+        <title>Sort Cards with selectSort</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <link rel="shortcut icon" href="./4geeks.ico"></head>
     <body>
-        <div class="container-fluid text-center">
-            <h1 class="mt-5">Hello Rigo!</h1>
-            <img src="./rigo-baby.jpg"></img>
-            <p class="alert alert-warning mt-4">If this text is <b>not</b> centered and <b>yellow</b>, you probably have an error</p>
-            <div class="fixed-bottom p-4">
-                Made with ❤️ by <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-            </div>
+    <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+        <div class="container-fluid text-center bg-transparent" id="bodyContainer">
+    
+
+                <div class="two-cards">
+                  
+
+                    
+                    <!--cardBody-->
+                    <!-- <div class="gameContainer"> -->
+                    <div class="row bg-transparent m-3">
+                        <div class="card col-2 border-0" id="cardMain" >
+                            <div class=" d-inline h-100 m-1">
+                                <div class="upper-number p-2 text-left ">
+                                    <span></span>
+                                </div>
+                                <div class="symbol my-5">
+                                    <span></span>
+                                </div>
+                                <div class="lower-number text-right p-2">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card col-2 border-0" id="card2">
+                            <div class="d-inline m-1 " >
+                                <div class="card2top text-left p-2">
+                                    <span></span>
+                                </div>
+                                <div class="symbol2 my-5">
+                                    <span></span>
+                                </div>
+                                <div class="card2bot text-right p-2">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card col-2  border-0" id="card3">
+                            <div class=" d-inline m-1" >
+                                <div class="card3top text-left p-2">
+                                    <span></span>
+                                </div>
+                                <div class="symbol3 my-5">
+                                    <span></span>
+                                </div>
+                                <div class="card3bot text-right p-2">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card col-2  border-0" id="card4">
+                            <div class=" d-inline m-1" >
+                                <div class="card4top text-left p-2">
+                                    <span></span>
+                                </div>
+                                <div class="symbol4 my-5">
+                                    <span></span>
+                                </div>
+                                <div class="card4bot text-right p-2">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="card col-2  border-0" id="card5">
+                            <div class="d-inline m-1" >
+                                <div class="card5top text-left p-2">
+                                    <span></span>
+                                </div>
+                                <div class="symbol5 my-5">
+                                    <span></span>
+                                </div>
+                                <div class="card5bot text-right p-2">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                   
+                    
+                        <!-- <div class="card col-2 border-0" id="card6">
+                            <div class="border border-success rounded d-inline m-1 " >
+                                <div class="card6top text-left p-2">
+                                    <span></span>
+                                </div>
+                                <div class="symbol6 my-5">
+                                    <span></span>
+                                </div>
+                                <div class="card6bot text-right p-2">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div> -->
+                    
+
+                    </div>
+
+                    <div class="buttonContainer  d-inline">
+                        <button class="sortButton m-3">Double click to SORT</button>
+                    </div >
+
+                    <div class="buttonContainer  d-inline">
+                        <button class="reload">Click me</button>
+                    </div >
+
+
+                </div>
+               
         </div>
 
 
